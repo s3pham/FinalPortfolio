@@ -1,0 +1,167 @@
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+  background-color: lightblue;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color:#fff
+}
+
+h2 {
+  color:#fff;
+  font-family: 'Montserrat';
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color:#8f8f8f
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+a:link {
+  color: turquoise;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.download-button {
+  margin: 5% 5% 5% 0;
+}
+
+.title-image {
+  width: 100%;
+  transform: rotate(0deg);
+  position: absolute;
+}
+
+#qualifications {
+  padding: 7% 15%;
+  background-color: lightgoldenrodyellow;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color:#ef8712;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color:lightblue;
+}
+
+#press {
+  background-color:lightblue;
+  text-align: center;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+#experience {
+  padding: 100px;
+  text-align: center;
+  background-color:lightgoldenrodyellow;
+}
+
+.experience-header {
+  color:#000
+}
+
+.experience-column {
+  padding: 3% 2%;
+  color:orange
+}
+
+#about {
+  background-color:lightblue;
+  color:#000;
+  padding: 7% 15%;
+}
+
+.about-heading{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#contact {
+  padding: 7% 15%;
+  text-align: center;
+  background-color:#fff;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
